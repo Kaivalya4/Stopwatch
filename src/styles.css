@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 235, 219);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  font-size: 4rem;
+}
+
+.common {
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgb(105, 103, 103);
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  margin: 2rem;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  background-color: rgb(194, 204, 47);
+}
+
+@media screen and (min-height: 1000px) {
+  .common {
+    font-size: 4rem;
+  }
+}
